@@ -1,0 +1,26 @@
+.home-section--white {
+    color:#3c3c3c;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.home-section {
+    position: relative;
+    padding: 1.6em 0;
+}
+section {
+    display: block;
+}
+.home-section:after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    -webkit-transform: translate(-50%,-15px);
+    -ms-transform: translate(-50%,-15px);
+    transform: translate(-50%,-15px);
+    content: '';
+    -webkit-background-size: contain;
+    background-size: contain;
+    z-index: 8;
+}
